@@ -1,0 +1,8 @@
+div {
+    height: 800px;
+    width: 600px;
+    border: 1px solid black;
+    background-image: url(../img/call_blog_saudefrutas-1080x675.jpg);
+    background-size: 25%;
+    background-repeat: repeat-y;
+}
