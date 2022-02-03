@@ -53,15 +53,18 @@
     }
     
     .divGreen {
-        width: 100%;
+        width: 49%;
         height: 150px;
         background-color: green;
     }
-    
-    .marginLeft {
+    /* .marginLeft {
         margin-left: 2px;
     }
     
     .marginRight {
         margin-right: 2px;
+    } */
+    
+    .spacebt {
+        justify-content: space-between;
     }
