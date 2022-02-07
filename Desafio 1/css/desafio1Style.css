@@ -35,7 +35,7 @@ header #ul_header {
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     /* border: 1px solid yellow; */
 }
 
@@ -44,14 +44,22 @@ a {
     font: var(--font-principal);
     color: var(--cor-font-pricipal);
     cursor: pointer;
-    margin-right: 30px;
     /* border: 1px solid red; */
 }
 
 a.style:hover {
-    border-radius: 40%;
+    background-color: red;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.styleHome {
+    border-radius: 2em;
     background-color: var(--cor-hover-padrão);
-    width: 80px;
+    width: 90px;
     height: 30px;
     display: flex;
     align-items: center;
