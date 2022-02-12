@@ -16,6 +16,8 @@ header {
     width: 100vw;
     height: 40px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -29,46 +31,42 @@ h1 {
     /* border: 1px solid red; */
 }
 
-header #ul_header {
+
+/* header #ul_header {
     list-style: none;
     width: 40%;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    /* border: 1px solid yellow; */
-}
+    /* justify-content: space-evenly; */
+
+
+/* border: 1px solid yellow; 
+}*/
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    font: var(--font-principal);
     color: var(--cor-font-pricipal);
-    cursor: pointer;
-    /* border: 1px solid red; */
+    margin-left: 20px;
+    width: 90px;
+    height: 30px;
 }
 
 a.style:hover {
     background-color: red;
-    width: 90px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 a.styleHome {
     border-radius: 2em;
     background-color: var(--cor-hover-padrão);
-    width: 90px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 main {
     width: 100%;
-    height: 673px;
+    height: 84.8vh;
     display: flex;
     align-items: center;
     justify-content: center;
